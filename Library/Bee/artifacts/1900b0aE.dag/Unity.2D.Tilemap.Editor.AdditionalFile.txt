@@ -1,1 +1,1 @@
-C:\Users\darry\Repos\Year2\2023\IntroAlg\MyWork\01-introduction-to-unity-scripting\starter-code
+C:\Users\darry\Repos\Year2\2023\IntroAlg\MyWork\ScriptingIntro\starter-code
