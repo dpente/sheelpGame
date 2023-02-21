@@ -498,3 +498,43 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1247.476851 seconds.
+  path: Assets/RW/Models/Hay Bale.fbx
+  artifactKey: Guid(af7e099ccf40c8046b7d720e9d8df558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RW/Models/Hay Bale.fbx using Guid(af7e099ccf40c8046b7d720e9d8df558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef238136b049ceafd754812ca861bb0') in 0.104732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/RW/Models/Start Button.fbx
+  artifactKey: Guid(120a8a37d61a56342833a113d69f20ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RW/Models/Start Button.fbx using Guid(120a8a37d61a56342833a113d69f20ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07475bf953af8a71e9022d748df97a8d') in 0.019713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/RW/Models/Quit Button.fbx
+  artifactKey: Guid(0760bf54179f6744c97628b3f618554d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RW/Models/Quit Button.fbx using Guid(0760bf54179f6744c97628b3f618554d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e25d8abb90d9a5d68fb5944b3eb1c987') in 0.013303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/RW/Models/Windmill.fbx
+  artifactKey: Guid(58f6635e07a7ff840b21ff4932c0914d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RW/Models/Windmill.fbx using Guid(58f6635e07a7ff840b21ff4932c0914d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6231e0c1b85abcefbe835b7754f280fd') in 0.015845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/RW/Models/Hay Machine Blue.fbx
+  artifactKey: Guid(0d729ea02e055de449c21c288a41bb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RW/Models/Hay Machine Blue.fbx using Guid(0d729ea02e055de449c21c288a41bb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d107f8642c977edb0064a697fb20f5') in 0.011686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/RW/Models/Hay Machine Yellow.fbx
+  artifactKey: Guid(0a87953750e4d784690043bdd32b94d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RW/Models/Hay Machine Yellow.fbx using Guid(0a87953750e4d784690043bdd32b94d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530805b43b4cd19adcce2ee25b86118a') in 0.012574 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class HayMachine : MonoBehaviour
 {
+    public GameObject hayBalePrefab;
+    public Transform haySpawnpoint;
+    public float shootInterval;
+    private float shootTimer;
     public float movementSpeed;
     public float horizontalBoundary = 22;
 
@@ -17,6 +21,7 @@ public class HayMachine : MonoBehaviour
     void Update()
     {
         UpdateMovement();
+        UpdateShooting();
     }
 
     //Updates the movemnet speed for the Hay machine
@@ -32,5 +37,21 @@ public class HayMachine : MonoBehaviour
         {
             transform.Translate(transform.right * movementSpeed * Time.deltaTime);
         }
+    }
+
+    private void UpdateShooting()
+    {
+        shootTimer -= Time.deltaTime;
+
+        if (shootTimer <= 0 && Input.GetKey(KeyCode.Space))
+        {
+            shootTimer = shootInterval;
+            ShootHay();
+        }
+    }
+
+    private void ShootHay()
+    {
+        Instantiate(hayBalePrefab, haySpawnpoint.position, Quaternion.identity);
     }
 }

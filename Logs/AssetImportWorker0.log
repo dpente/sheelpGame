@@ -516,3 +516,37 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 500.004598 seconds.
+  path: Assets/RW/Models/Ground.fbx
+  artifactKey: Guid(6800250c0f0e6bf4a8f5cf0ab778ac9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RW/Models/Ground.fbx using Guid(6800250c0f0e6bf4a8f5cf0ab778ac9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8a52fb5b78e3389b169316fca6cde8') in 0.125209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/RW/Models/Sheep.fbx
+  artifactKey: Guid(fee0f50f91e9d7d4a84a85232e663d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RW/Models/Sheep.fbx using Guid(fee0f50f91e9d7d4a84a85232e663d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c3279c124b9a8f986387bcc00c7d65') in 0.013808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/RW/Models/Hay Machine Red.fbx
+  artifactKey: Guid(b4f50c31a0c63154ca4085fca6898cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RW/Models/Hay Machine Red.fbx using Guid(b4f50c31a0c63154ca4085fca6898cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c874b0ea830862c311f08c0d47bc383') in 0.014105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/RW/Models/Title.fbx
+  artifactKey: Guid(4d9b273f136282f4eb3f22a0aed5267d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RW/Models/Title.fbx using Guid(4d9b273f136282f4eb3f22a0aed5267d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd369c9612a090c26eab1d9b44bbd9d2e') in 0.012814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/RW/Models/Heart.fbx
+  artifactKey: Guid(1a8b634e9a3c67346be354111823cd80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RW/Models/Heart.fbx using Guid(1a8b634e9a3c67346be354111823cd80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9365e127f7ef48f5190afa91d55d9d6') in 0.013904 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

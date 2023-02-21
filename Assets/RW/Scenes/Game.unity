@@ -279,6 +279,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 55.202003, y: -27.348001, z: 5.7660003}
+--- !u!1 &229289567 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6020313712292669828, guid: c91d458c12526534eb19d65378204353,
+    type: 3}
+  m_PrefabInstance: {fileID: 5233456974663517127}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &229289569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229289567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e13aa9ad1f30d9e409b6f6df7060e4f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hayBalePrefab: {fileID: 3098747456817803410, guid: d684a4f1f18a2ce478c3f4ad515113ee,
+    type: 3}
+  haySpawnpoint: {fileID: 618284276}
+  shootInterval: 0.8
+  movementSpeed: 14
+  horizontalBoundary: 22
 --- !u!1 &289565342
 GameObject:
   m_ObjectHideFlags: 0
@@ -497,6 +521,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 30, y: -45, z: 0}
+--- !u!4 &618284276 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1855226494, guid: c91d458c12526534eb19d65378204353,
+    type: 3}
+  m_PrefabInstance: {fileID: 5233456974663517127}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1050572059 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1524613847715755804, guid: ff9c52423c3a7be49af987edf422bcff,
