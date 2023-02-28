@@ -60,11 +60,13 @@
     <Compile Include="Assets\RW\Scripts\DestroyTimer.cs" />
     <Compile Include="Assets\RW\Scripts\SheepSpawner.cs" />
     <Compile Include="Assets\RW\Scripts\TweenScale.cs" />
+    <Compile Include="Assets\RW\Scripts\Managers\SoundManager.cs" />
     <Compile Include="Assets\RW\Scripts\Move.cs" />
     <Compile Include="Assets\RW\Scripts\HayMachine.cs" />
     <Compile Include="Assets\RW\Scripts\Rotate.cs" />
     <Compile Include="Assets\RW\Scripts\Sheep.cs" />
-    <Compile Include="Assets\RW\Scripts\Managers\SoundManager.cs" />
+    <Compile Include="Assets\RW\Scripts\Managers\GameStateManager.cs" />
+    <Compile Include="Assets\RW\Scripts\Managers\UIManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
