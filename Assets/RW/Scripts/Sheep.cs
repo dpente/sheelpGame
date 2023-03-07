@@ -5,6 +5,8 @@ using UnityEngine;
 public class Sheep : MonoBehaviour
 {
     public float runSpeed;
+    public float speedUp;
+    public float speedUpInterval;
     public float gotHayDestroyDelay;
     private bool hitByHay;
     private bool dropped;
@@ -23,12 +25,14 @@ public class Sheep : MonoBehaviour
     {
         myCollider = GetComponent<Collider>();
         myRigidbody = GetComponent<Rigidbody>();
+        Faster();
     }
 
     // Update is called once per frame
     void Update()
     {
         transform.Translate(Vector3.forward * runSpeed * Time.deltaTime);
+        InvokeRepeating("faster", 5.0f, 5.0f);
     }
 
     private void HitByHay()
@@ -75,5 +79,13 @@ public class Sheep : MonoBehaviour
     public void SetSpawner(SheepSpawner spawner)
     {
         sheepSpawner = spawner;
+    }
+
+    private void Faster()
+    {
+        if (Time.timeSinceLevelLoad > speedUpInterval)
+        {
+            runSpeed *= speedUp;
+        }
     }
 }
