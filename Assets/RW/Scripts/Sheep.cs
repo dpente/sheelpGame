@@ -86,7 +86,7 @@ public class Sheep : MonoBehaviour
     {
         if(startTime > speedUpInterval)
         {
-            runSpeed = runSpeed + (speedUp + (startTime / speedUp));
+            runSpeed = runSpeed + (speedUp + (startTime / speedUpInterval));
         }    
     }
 }
