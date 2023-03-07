@@ -77,7 +77,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runSpeed: 10
-  speedUp: 1.5
+  speedUp: 3
   speedUpInterval: 5
   gotHayDestroyDelay: 1
   dropDestroyDelay: 4

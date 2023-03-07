@@ -7,6 +7,7 @@ public class Sheep : MonoBehaviour
     public float runSpeed;
     public float speedUp;
     public float speedUpInterval;
+    private float startTime;
     public float gotHayDestroyDelay;
     private bool hitByHay;
     private bool dropped;
@@ -25,6 +26,7 @@ public class Sheep : MonoBehaviour
     {
         myCollider = GetComponent<Collider>();
         myRigidbody = GetComponent<Rigidbody>();
+        startTime = Time.timeSinceLevelLoad;
         Faster();
     }
 
@@ -32,7 +34,6 @@ public class Sheep : MonoBehaviour
     void Update()
     {
         transform.Translate(Vector3.forward * runSpeed * Time.deltaTime);
-        InvokeRepeating("faster", 5.0f, 5.0f);
     }
 
     private void HitByHay()
@@ -83,9 +84,9 @@ public class Sheep : MonoBehaviour
 
     private void Faster()
     {
-        if (Time.timeSinceLevelLoad > speedUpInterval)
+        if(startTime > speedUpInterval)
         {
-            runSpeed *= speedUp;
-        }
+            runSpeed = runSpeed + (speedUp + (startTime / speedUp));
+        }    
     }
 }
