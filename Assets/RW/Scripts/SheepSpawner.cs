@@ -9,7 +9,8 @@ public class SheepSpawner : MonoBehaviour
     public GameObject sheepPrefab;
     public List<Transform> sheepSpawnPositions = new List<Transform>();
     public float timeBetweenSpawns;
-    public float spawnFaster;
+    public float spawnSpeedUpInterval;
+    public float spawnSpeedIncrease;
 
     private List<GameObject> sheepList = new List<GameObject>();
 
@@ -54,15 +55,17 @@ public class SheepSpawner : MonoBehaviour
         {
             Destroy(sheep);
         }
-
         sheepList.Clear();
     }
 
     private void spawnSpeedUp()
     {
-        if(Mathf.RoundToInt(Time.timeSinceLevelLoad) == 10)
+        if(timeBetweenSpawns != spawnSpeedIncrease)
         {
-            timeBetweenSpawns = timeBetweenSpawns - spawnFaster;
+            if (Mathf.RoundToInt(Time.timeSinceLevelLoad) % spawnSpeedUpInterval == 0)
+            {
+                timeBetweenSpawns = timeBetweenSpawns - spawnSpeedIncrease;
+            }
         }
     }
 }
