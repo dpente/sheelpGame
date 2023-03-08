@@ -18,6 +18,6 @@ Stop the sheep from fallin goff the cliff by blasting them with hay! Creating th
 - A score system with a high score that persists across rounds and instances of games.
 
 ### Resources
-High score system - https://www.youtube.com/watch?v=Y7GjVFFSMuI&ab_channel=BMo
-Timing research - https://forum.unity.com/threads/how-do-i-calculate-accurately-time-passed-in-seconds-for-c.191434/
-Method research -https://docs.unity3d.com/ScriptReference/MonoBehaviour.InvokeRepeating.html, https://docs.unity3d.com/ScriptReference/WaitForSeconds.html, https://docs.unity3d.com/ScriptReference/MonoBehaviour.IsInvoking.html
+- High score system - https://www.youtube.com/watch?v=Y7GjVFFSMuI&ab_channel=BMo
+- Timing research - https://forum.unity.com/threads/how-do-i-calculate-accurately-time-passed-in-seconds-for-c.191434/
+- Method research -https://docs.unity3d.com/ScriptReference/MonoBehaviour.InvokeRepeating.html, https://docs.unity3d.com/ScriptReference/WaitForSeconds.html, https://docs.unity3d.com/ScriptReference/MonoBehaviour.IsInvoking.html
