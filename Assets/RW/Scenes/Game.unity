@@ -310,6 +310,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 55.202003, y: -27.348001, z: 5.7660003}
+--- !u!114 &179764347 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7099534158885657623, guid: 726881a9b8c21e74dbb2d4b473c6d16d,
+    type: 3}
+  m_PrefabInstance: {fileID: 2084378417}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &210761700 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3766863228346944795, guid: 726881a9b8c21e74dbb2d4b473c6d16d,
@@ -533,6 +545,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sheepSavedText: {fileID: 210761700}
   sheepDroppedText: {fileID: 417183916}
+  highScoreText: {fileID: 179764347}
   gameOverWindow: {fileID: 375343557}
 --- !u!1 &375343557 stripped
 GameObject:
@@ -754,7 +767,9 @@ MonoBehaviour:
   - {fileID: 19237866}
   - {fileID: 1069094623}
   - {fileID: 626527197}
-  timeBetweenSpawns: 2
+  timeBetweenSpawns: 2.5
+  spawnSpeedUpInterval: 10
+  spawnSpeedIncrease: 0.5
 --- !u!4 &921510861
 Transform:
   m_ObjectHideFlags: 0
@@ -853,6 +868,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sheepSaved: 0
   sheepDropped: 0
+  highScore: 0
   sheepDroppedBeforeGameOver: 3
   sheepSpawner: {fileID: 921510860}
 --- !u!1 &1403970799
