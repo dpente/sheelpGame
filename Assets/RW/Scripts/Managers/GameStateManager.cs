@@ -13,9 +13,6 @@ public class GameStateManager : MonoBehaviour
     [HideInInspector]
     public int sheepDropped;
 
-    [HideInInspector]
-    public int highScore;
-
     public int sheepDroppedBeforeGameOver;
     public SheepSpawner sheepSpawner;
 
@@ -42,10 +39,7 @@ public class GameStateManager : MonoBehaviour
 
     private void GameOver()
     {
-        if(sheepSaved > highScore)
-        {
-            UIManager.Instance.highScoreUpdate();
-        }
+        checkHighScore();
         sheepSpawner.canSpawn = false;
         sheepSpawner.DestroyAllSheep();
         UIManager.Instance.ShowGameOverWindow();
@@ -58,6 +52,15 @@ public class GameStateManager : MonoBehaviour
         if (sheepDropped == sheepDroppedBeforeGameOver)
         {
             GameOver();
+        }
+    }
+
+    private void checkHighScore()
+    {
+        if (sheepSaved > PlayerPrefs.GetInt("HighScore", 0))
+        {
+            PlayerPrefs.SetInt("HighScore", sheepSaved);
+            UIManager.Instance.highScoreUpdate();
         }
     }
 }

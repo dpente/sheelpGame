@@ -13,6 +13,10 @@ public class UIManager : MonoBehaviour
     public GameObject gameOverWindow;
 
     // Start is called before the first frame update
+    private void Start()
+    {
+        highScoreUpdate();
+    }
     void Awake()
     {
         Instance = this;
@@ -38,7 +42,7 @@ public class UIManager : MonoBehaviour
 
     public void highScoreUpdate()
     {
-        highScoreText.text = GameStateManager.Instance.sheepSaved.ToString();
+        highScoreText.text = PlayerPrefs.GetInt("HighScore", 0).ToString();
     }
 }
 
