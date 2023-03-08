@@ -1,4 +1,4 @@
-# ID623001-introduction-to-algorithmic-prob#lem-solving
+# ID623001-introduction-to-algorithmic-problem-solving
 ## Sheep Game
 
 ### Goal
