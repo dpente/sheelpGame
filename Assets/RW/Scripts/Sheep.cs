@@ -1,3 +1,4 @@
+//Script that sets sheep behaviour such as move speed, speed up over time, collision events.
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

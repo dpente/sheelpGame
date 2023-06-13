@@ -1,3 +1,4 @@
+//Script which changes size of objects over time.
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

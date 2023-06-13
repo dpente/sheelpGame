@@ -1,3 +1,4 @@
+//Script that defines which color hay machiene to use, sets its movment speed and tells it to shoot
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -23,6 +24,7 @@ public class HayMachine : MonoBehaviour
         LoadModel();
     }
 
+    //CHanges the colour opf the hay machienbe when you click it in the menu screen.
     private void LoadModel()
     {
         Destroy(modelParent.GetChild(0).gameObject);

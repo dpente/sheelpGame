@@ -1,3 +1,4 @@
+//Script that controls how the hay rotates
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

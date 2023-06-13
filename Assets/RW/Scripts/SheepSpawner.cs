@@ -1,3 +1,4 @@
+//Script that controls the 3 spawn locations, spawn interval.
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

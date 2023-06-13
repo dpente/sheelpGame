@@ -1,3 +1,4 @@
+//Destroys falling sheep and hay after a given time period
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

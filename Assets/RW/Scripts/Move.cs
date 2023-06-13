@@ -1,3 +1,4 @@
+//Script that calculates how objects move
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
