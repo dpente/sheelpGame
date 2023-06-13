@@ -12,7 +12,7 @@ Stop the sheep from fallin goff the cliff by blasting them with hay! Creating th
 
 ### Features
 - Music that doesnt drive you crazy at all!
-- Sound effects on sheep hit and sheep death, with mathcing visual effects.
+- Sound effects on sheep hit and sheep death, with matching visual effects.
 - Sheep move faster as the game goes on.
 - Sheep spawn faster as the game goes on.
 - A score system with a high score that persists across rounds and instances of games.
